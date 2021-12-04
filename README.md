@@ -12,3 +12,4 @@ A collection of scripts and commands to use with AWS CLI
 - aws lambda list-functions | grep FunctionArn | cut -d '"' -f 4
 - aws lambda list-functions | grep FunctionName | cut -d '"' -f 4
 - aws lambda create-function --function-name hello-node --zip-file fileb://function.zip --runtime nodejs14.x --role arn:aws:iam::158939969971:role/LambdaBasicRole --handler index.handler
+- aws lambda delete-function --function-name hello-node
