@@ -6,7 +6,11 @@ A collection of scripts and commands to use with AWS CLI
 
 - aws configure
 
-### Lambda 
+### CloudWatch
+
+- aws logs describe-log-groups
+
+### Lambda
 
 - aws lambda list-functions
 - aws lambda list-functions | grep FunctionArn | cut -d '"' -f 4
