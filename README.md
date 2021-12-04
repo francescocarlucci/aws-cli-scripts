@@ -9,6 +9,7 @@ A collection of scripts and commands to use with AWS CLI
 ### CloudWatch
 
 - aws logs describe-log-groups
+- aws logs delete-log-group --log-group-name /aws/lambda/hello-node
 
 ### Lambda
 
