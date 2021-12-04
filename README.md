@@ -4,8 +4,8 @@ A collection of scripts and commands to use with AWS CLI
 
 ### Basic
 
-aws configure
+- aws configure
 
 ### Lambda 
 
-aws lambda list-functions
+- aws lambda list-functions
